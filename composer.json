@@ -1,0 +1,21 @@
+{
+    "name": "sugiphp/money",
+    "type": "library",
+    "description": "A library of classes to store money in different currencies",
+    "keywords": ["money", "currency", "exchange"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Plamen Popov",
+            "email": "tzappa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SugiPHP\\Money\\": ""
+        }
+    }
+}
